@@ -3,6 +3,7 @@
     <style name="Base.Theme.InfectionZApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:colorBackground">#000000</item>
     </style>
 
     <style name="Theme.InfectionZApp" parent="Base.Theme.InfectionZApp" />
