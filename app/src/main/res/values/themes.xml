@@ -1,9 +1,31 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.InfectionZApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primaryRed</item>
+        <item name="colorPrimaryVariant">#B20610</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#141414</item>
+        <item name="colorSecondaryVariant">#2F2F2F</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Tertiary brand color -->
+        <item name="colorTertiary">#B3B3B3</item>
+        <item name="colorOnTertiary">#000000</item>
+
+        <!-- Background color -->
         <item name="android:colorBackground">#000000</item>
+        <item name="colorOnBackground">#FFFFFF</item>
+
+        <!-- Surface color -->
+        <item name="colorSurface">#1C1C1C</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+
+        <!-- Error color -->
+        <item name="colorError">#D32F2F</item>
+        <item name="colorOnError">#FFFFFF</item>
     </style>
 
     <style name="Theme.InfectionZApp" parent="Base.Theme.InfectionZApp" />
