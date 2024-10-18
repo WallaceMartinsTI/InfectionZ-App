@@ -1,4 +1,4 @@
-package com.wcsm.infectionzapp
+package com.wcsm.infectionzapp.presentation.ui
 
 import android.content.Context
 import android.content.Intent
@@ -9,6 +9,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.wcsm.infectionzapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,17 +26,16 @@ class MainActivity : AppCompatActivity() {
 
         // Splash Screen
         Handler(Looper.getMainLooper()).postDelayed({
-            /* PRODUCTION VERSION
+            // PRODUCTION VERSION
             val intent = if(isFirstTimeOpeningApp(this)) {
                 saveAppOpened(this)
                 Intent(this, FirstRunActivity::class.java)
             } else {
                 Intent(this, MainScreenActivity::class.java)
             }
-            */
 
             // DEV VERSION
-            val intent = Intent(this, FirstRunActivity::class.java)
+            // val intent = Intent(this, FirstRunActivity::class.java)
 
             startActivity(intent)
             finish()

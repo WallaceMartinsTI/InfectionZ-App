@@ -9,7 +9,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@color/black"
-    tools:context=".MainActivity">
+    tools:context=".presentation.ui.MainActivity">
 
 
     <ImageView

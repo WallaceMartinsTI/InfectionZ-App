@@ -13,13 +13,34 @@
         android:theme="@style/Theme.InfectionZApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainScreenActivity"
+            android:name=".presentation.ui.navigation.StoreActivity"
             android:exported="false" />
         <activity
-            android:name=".FirstRunActivity"
+            android:name=".presentation.ui.navigation.ItemsActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.ui.navigation.QuestsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.ui.navigation.SalesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.ui.navigation.HelpWikiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.ui.navigation.BossesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.ui.navigation.ServerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.ui.MainScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.ui.FirstRunActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

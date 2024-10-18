@@ -1,4 +1,4 @@
-package com.wcsm.infectionzapp
+package com.wcsm.infectionzapp.presentation.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,6 +9,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.wcsm.infectionzapp.R
 import com.wcsm.infectionzapp.databinding.ActivityFirstRunBinding
 
 class FirstRunActivity : AppCompatActivity() {
