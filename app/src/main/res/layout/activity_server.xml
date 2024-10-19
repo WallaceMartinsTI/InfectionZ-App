@@ -1,10 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".presentation.ui.navigation.ServerActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textServerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="INFECTION Z"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textServerDescription"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:paddingStart="40dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textServerTitle"
+            tools:text="╔═══════════════════════════ ║    INFECTIONZ DAYZ BR OFICIAL ║ ║➥ A maior comunidade de MTA DayZ!  ║➥ Mais de 12.000 membros no Discord!  ║➥ Eventos diariamente!  ║➥ Atualizações frequentes!  ║➥ Muito PVP pelo mapa!  ║➥ Sobrevivência!  ║➥ Ping Baixo!  ║➥ Sistema de Bases Privadas!  ║➥ Sistema de Armas Raras e Skins!  ║➥ A maior variedade de armas do MTA!  ║➥ A maior variedade de veículos do MTA!  ║➥ Sistema de Carros Raros!  ║➥ PVP de carro!  ║➥ +FPS Boost!  ║➥ Mapa totalmente modificado!  ║➥ Sistema de zumbis e boss!  ╠═══════════════════════════ ║➥ https://discord.gg/infectionz ╠═══════════════════════════ ║➥ IFZ #1 IP: mtasa://158.69.22.166:22003  ║➥ IFZ #2 IP: mtasa://158.69.22.166:22006  ║➥ IFZ #3 IP: mtasa://158.69.22.166:22011  ║➥ IFZ Arena IP: mtasa://158.69.22.166:22009  ╚═══════════════════════════" />
+
+        <Button
+            android:id="@+id/btnServerOpenDiscord"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/primaryRed"
+            android:drawableLeft="@drawable/discord_logo"
+            android:gravity="left|center_vertical"
+            android:text="DISCORD"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textServerDescription"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/btnServerOpenYoutube"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/youtube_logo"
+            android:text="YOUTUBE"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnServerOpenDiscord"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/btnServerOpenInstagram"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/logo_instagram"
+            android:text="INSTAGRAM"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnServerOpenYoutube"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="2dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="REGRAS"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnServerOpenInstagram" />
+
+        <TextView
+            android:id="@+id/textServerRules"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="32dp"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
