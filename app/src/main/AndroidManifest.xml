@@ -31,7 +31,7 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".presentation.ui.navigation.HelpWikiActivity"
+            android:name=".presentation.ui.navigation.helpwiki.HelpWikiActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
@@ -39,7 +39,7 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".presentation.ui.navigation.ServerActivity"
+            android:name=".presentation.ui.navigation.server.ServerActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
