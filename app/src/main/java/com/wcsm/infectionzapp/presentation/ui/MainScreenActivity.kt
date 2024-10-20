@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ItemDecoration
 import com.wcsm.infectionzapp.R
 import com.wcsm.infectionzapp.databinding.ActivityMainScreenBinding
-import com.wcsm.infectionzapp.presentation.adapter.MainScreenMenuItemAdapter
+import com.wcsm.infectionzapp.presentation.ui.adapter.MainScreenMenuItemAdapter
 
 class MainScreenActivity : AppCompatActivity() {
 

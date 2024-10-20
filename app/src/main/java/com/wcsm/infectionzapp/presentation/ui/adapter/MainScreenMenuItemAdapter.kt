@@ -1,4 +1,4 @@
-package com.wcsm.infectionzapp.presentation.adapter
+package com.wcsm.infectionzapp.presentation.ui.adapter
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -15,10 +15,6 @@ class MainScreenMenuItemAdapter(
 ) : Adapter<MainScreenMenuItemAdapter.MainScreenMenuItemHolder>() {
 
     private val menuItems = mainScreenNavigationItems
-
-    init {
-        Log.i("#-# TESTE #-#", "MainScreenMenuItemAdapter INIT")
-    }
 
     inner class MainScreenMenuItemHolder(
         private val binding: MainScreenMenuItemBinding

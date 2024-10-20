@@ -7,4 +7,133 @@
     android:layout_height="match_parent"
     tools:context=".presentation.ui.navigation.HelpWikiActivity">
 
+    <TextView
+        android:id="@+id/textHelpWikiTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="INFECTION Z" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHelpWikiTitle">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnHelpWikiTutorials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="📖 TUTORIAIS"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnHelpWikiVehicleParts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="🧰 PEÇAS VEÍCULOS"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnHelpWikiMedicines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="💊 MEDICAMENTOS"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnHelpWikiVestsAndHelmets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="🦺 COLETES E CAPACETES"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnHelpWikiLevels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="📊 NÍVEIS"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnHelpWikiOtherItems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="📜 OUTROS ITENS"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnHelpWikiRareGears"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="🌎 GEARS RARAS"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnHelpWikiKeys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="⌨️ TECLAS"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnHelpWikiVehicles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🚗 VEÍCULOS"
+                app:cornerRadius="5dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fcvHelpWikiTutorials"
+        android:name="com.wcsm.infectionzapp.presentation.ui.fragments.helpwiki.TutorialsFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+        tools:layout="@layout/fragment_tutorials" />
 </androidx.constraintlayout.widget.ConstraintLayout>

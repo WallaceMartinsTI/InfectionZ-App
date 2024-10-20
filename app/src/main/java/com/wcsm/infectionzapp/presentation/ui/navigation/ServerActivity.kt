@@ -94,7 +94,7 @@ class ServerActivity : AppCompatActivity() {
     }
 
     private fun formatServerTitle() {
-        val fullText = "INFECTION Z"
+        val fullText = "INFECTION Z\nSERVER"
         val spannable = SpannableString(fullText)
         val redColor =  resources.getColor(R.color.primaryRed)
 
@@ -102,6 +102,13 @@ class ServerActivity : AppCompatActivity() {
             ForegroundColorSpan(redColor),
             fullText.indexOf("Z"),
             fullText.indexOf("Z") + "Z".length,
+            Spannable.SPAN_EXCLUSIVE_EXCLUSIVE
+        )
+
+        spannable.setSpan(
+            ForegroundColorSpan(redColor),
+            fullText.indexOf("SERVER"),
+            fullText.indexOf("SERVER") + "SERVER".length,
             Spannable.SPAN_EXCLUSIVE_EXCLUSIVE
         )
 
