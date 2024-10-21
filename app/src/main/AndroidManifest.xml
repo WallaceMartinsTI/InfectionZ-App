@@ -23,7 +23,7 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".navigation.QuestsActivity"
+            android:name=".navigation.quests.QuestsActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity

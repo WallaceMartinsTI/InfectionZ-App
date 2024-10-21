@@ -3,7 +3,7 @@ package com.wcsm.infectionzapp
 import com.wcsm.infectionzapp.navigation.bosses.BossesActivity
 import com.wcsm.infectionzapp.navigation.helpwiki.HelpWikiActivity
 import com.wcsm.infectionzapp.navigation.ItemsActivity
-import com.wcsm.infectionzapp.navigation.QuestsActivity
+import com.wcsm.infectionzapp.navigation.quests.QuestsActivity
 import com.wcsm.infectionzapp.navigation.SalesActivity
 import com.wcsm.infectionzapp.navigation.server.ServerActivity
 import com.wcsm.infectionzapp.navigation.StoreActivity
