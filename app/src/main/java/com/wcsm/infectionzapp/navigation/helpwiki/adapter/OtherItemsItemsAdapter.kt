@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.wcsm.infectionzapp.databinding.OtherItemsFragmentItemBinding
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.data.helpWikiOtherItemsItems
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.model.OtherItemItem
+import com.wcsm.infectionzapp.navigation.helpwiki.data.helpWikiOtherItemsItems
+import com.wcsm.infectionzapp.navigation.helpwiki.model.OtherItemItem
 
 class OtherItemsItemsAdapter : Adapter<OtherItemsItemsAdapter.OtherItemsFragmentItemsHolder>() {
 

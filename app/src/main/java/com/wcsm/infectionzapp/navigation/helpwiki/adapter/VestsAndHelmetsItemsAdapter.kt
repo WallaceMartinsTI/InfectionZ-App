@@ -5,10 +5,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.wcsm.infectionzapp.databinding.VestsAndHelmetsFragmentItemBinding
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.model.VestsAndHelmetsItem
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.data.helpWikiVestsAndHelmetItems
+import com.wcsm.infectionzapp.navigation.helpwiki.data.helpWikiVestsAndHelmetItems
+import com.wcsm.infectionzapp.navigation.helpwiki.model.VestsAndHelmetsItem
 
-class VestsAndHelmetsItemsAdapter : Adapter<com.wcsm.infectionzapp.navigation.helpwiki.adapter.VestsAndHelmetsItemsAdapter.VestsAndHelmetsItemsHolder>() {
+class VestsAndHelmetsItemsAdapter : Adapter<VestsAndHelmetsItemsAdapter.VestsAndHelmetsItemsHolder>() {
 
     private val vestsAndHelmetsItems = helpWikiVestsAndHelmetItems
 
@@ -24,13 +24,13 @@ class VestsAndHelmetsItemsAdapter : Adapter<com.wcsm.infectionzapp.navigation.he
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): _root_ide_package_.com.wcsm.infectionzapp.navigation.helpwiki.adapter.VestsAndHelmetsItemsAdapter.VestsAndHelmetsItemsHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VestsAndHelmetsItemsHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
         val binding = VestsAndHelmetsFragmentItemBinding.inflate(layoutInflater, parent, false)
         return VestsAndHelmetsItemsHolder(binding)
     }
 
-    override fun onBindViewHolder(holder: _root_ide_package_.com.wcsm.infectionzapp.navigation.helpwiki.adapter.VestsAndHelmetsItemsAdapter.VestsAndHelmetsItemsHolder, position: Int) {
+    override fun onBindViewHolder(holder: VestsAndHelmetsItemsHolder, position: Int) {
         val vestsAndHelmetsItem = helpWikiVestsAndHelmetItems[position]
         holder.bind(vestsAndHelmetsItem)
     }

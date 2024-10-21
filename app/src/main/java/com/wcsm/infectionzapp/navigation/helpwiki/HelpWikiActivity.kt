@@ -12,15 +12,14 @@ import androidx.fragment.app.commit
 import androidx.fragment.app.replace
 import com.wcsm.infectionzapp.R
 import com.wcsm.infectionzapp.databinding.ActivityHelpWikiBinding
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.fragment.KeysFragment
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.fragment.LevelsFragment
-import com.wcsm.infectionzapp.navigation.helpwiki.fragment.MedicinesFragment
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.fragment.OtherItemsFragment
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.fragment.RareGearsFragment
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.fragment.TutorialsFragment
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.fragment.VehiclePartsFragment
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.fragment.VehiclesFragment
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.fragment.VestsAndHelmetsFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.KeysFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.LevelsFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.OtherItemsFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.RareGearsFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.TutorialsFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.VehiclePartsFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.VehiclesFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.VestsAndHelmetsFragment
 
 class HelpWikiActivity : AppCompatActivity() {
 

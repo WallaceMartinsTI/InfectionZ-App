@@ -1,6 +1,6 @@
 package com.wcsm.infectionzapp.navigation.helpwiki.data
 
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.model.RareGearsItem
+import com.wcsm.infectionzapp.navigation.helpwiki.model.RareGearsItem
 
 val helpWikiRareGearsItems = listOf(
     RareGearsItem(

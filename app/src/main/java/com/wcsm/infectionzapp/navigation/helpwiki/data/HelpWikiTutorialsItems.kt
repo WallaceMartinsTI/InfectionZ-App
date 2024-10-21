@@ -1,6 +1,6 @@
 package com.wcsm.infectionzapp.navigation.helpwiki.data
 
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.model.TutorialItem
+import com.wcsm.infectionzapp.navigation.helpwiki.model.TutorialItem
 
 val helpWikiTutorialsItems = listOf(
     TutorialItem(

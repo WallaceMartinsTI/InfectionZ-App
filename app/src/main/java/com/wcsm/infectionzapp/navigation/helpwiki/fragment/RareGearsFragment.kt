@@ -10,7 +10,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.wcsm.infectionzapp.databinding.FragmentRareGearsBinding
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.adapter.RareGearsItemsAdapter
+import com.wcsm.infectionzapp.navigation.helpwiki.adapter.RareGearsItemsAdapter
 
 class RareGearsFragment : Fragment() {
 

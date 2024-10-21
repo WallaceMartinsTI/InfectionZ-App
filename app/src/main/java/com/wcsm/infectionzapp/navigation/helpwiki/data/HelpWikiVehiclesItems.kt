@@ -1,7 +1,7 @@
 package com.wcsm.infectionzapp.navigation.helpwiki.data
 
 import com.wcsm.infectionzapp.R
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.model.VehicleItem
+import com.wcsm.infectionzapp.navigation.helpwiki.model.VehicleItem
 
 val helpWikiVehiclesItems = listOf(
     VehicleItem(

@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.wcsm.infectionzapp.databinding.RareGearsFragmentItemBinding
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.data.helpWikiRareGearsItems
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.model.RareGearsItem
+import com.wcsm.infectionzapp.navigation.helpwiki.data.helpWikiRareGearsItems
+import com.wcsm.infectionzapp.navigation.helpwiki.model.RareGearsItem
 
 class RareGearsItemsAdapter(
     private val onClick: (url: String) -> Unit

@@ -8,8 +8,8 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.wcsm.infectionzapp.R
 import com.wcsm.infectionzapp.databinding.FragmentMedicinesBinding
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.adapter.MedicinesItemsAdapter
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.utils.CustomDividerItemDecoration
+import com.wcsm.infectionzapp.navigation.helpwiki.adapter.MedicinesItemsAdapter
+import com.wcsm.infectionzapp.navigation.helpwiki.utils.CustomDividerItemDecoration
 
 class MedicinesFragment : Fragment() {
 

@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.wcsm.infectionzapp.databinding.VehiclePartsFragmentItemBinding
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.model.VehiclePartsItem
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.data.helpWikiVehiclePartsItems
+import com.wcsm.infectionzapp.navigation.helpwiki.model.VehiclePartsItem
+import com.wcsm.infectionzapp.navigation.helpwiki.data.helpWikiVehiclePartsItems
 
 class VehiclePartsItemsAdapter : Adapter<VehiclePartsItemsAdapter.VehiclePartsFragmentItemsHolder>() {
 

@@ -10,7 +10,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.wcsm.infectionzapp.databinding.FragmentTutorialsBinding
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.adapter.TutorialsFragmentItemsAdapter
+import com.wcsm.infectionzapp.navigation.helpwiki.adapter.TutorialsFragmentItemsAdapter
 
 class TutorialsFragment : Fragment() {
 

@@ -3,7 +3,7 @@ package com.wcsm.infectionzapp.navigation.bosses.model
 data class BossItem(
     val name: String,
     val description: String,
-    val life: Double,
+    val life: String,
     val bossImageResource: Int,
     val location: String,
     val respawnTime: String,

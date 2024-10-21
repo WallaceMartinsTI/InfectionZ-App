@@ -7,9 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.wcsm.infectionzapp.R
 import com.wcsm.infectionzapp.databinding.ActivityMainScreenBinding
-import com.wcsm.infectionzapp.MainScreenMenuItemAdapter
 
 class MainScreenActivity : AppCompatActivity() {
 

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:background="@color/black"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cl_background_bosses_popup">
+
+            <TextView
+                android:id="@+id/bossesPopupName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/primaryRed"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Vulcan" />
+
+            <TextView
+                android:id="@+id/bossesPopupDescription"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="M249 SAW Gold: ~1,675 tiros\nM4A1 Infernal: ~1,591 tiros\nM4A1 Halloween SD: ~1,585 tiros\nRPK Halloween: ~1,585 tiros\nAK-74 Gold: ~1,629 tiros\nAK-74 Golden Dragon: ~1,591 tiros\nAK-74 Phoenix EXTENDED: ~1,591 tiros\nSA-58 V CCO: ~1,729 tiros\nFN FAL Gold: ~1,629 tiros\nSR-15 Pink Girl: ~1,656 tiros\nG36C Vindicator: ~1,686 tiros\nSteyr Aug: ~1,699 tiros\nHoney Badger: ~1,675 tiros\nFN SCAR Phoenix: ~1,656 tiros\nFN SCAR Fire Wolf: ~1,591 tiros\nFN SCAR Ice Wolf: ~1,591 tiros\nIMI Galil: ~1,718 tiros\nM82: ~41 tiros\nM107 Gold: ~110 tiros\nM107 Halloween: ~76 tiros\nM107 Christmas: ~76 tiros\nAS50 Gold: ~65 tiros\nKSVK Sentr7: ~72 tiros\nCheyTac M200 SD Halloween: ~98 tiros\nCheyTac M200 SD Christmas: ~98 tiros\nAWM Dragon Lore: ~67 tiros\nAWM Sentr7: ~60 tiros"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+            <ImageView
+                android:id="@+id/ivBossesPopupBoss"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bossesPopupName"
+                tools:srcCompat="@drawable/boss_vulcan" />
+
+            <TextView
+                android:id="@+id/bossesPopupLife"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/ivBossesPopupBoss"
+                app:layout_constraintTop_toBottomOf="@+id/ivBossesPopupBoss"
+                tools:text="Vida: 6,500,000" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="LOCAIS"
+                android:textColor="@color/primaryRed"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/ivBossesPopupBoss"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/ivBossesPopupBoss"
+                app:layout_constraintTop_toBottomOf="@+id/bossesPopupRespawn" />
+
+            <ImageView
+                android:id="@+id/ivBossesPopupLoc1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="4dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toStartOf="@+id/ivBossesPopupLoc2"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView21"
+                tools:srcCompat="@drawable/boss_vulcan_loc_1" />
+
+            <ImageView
+                android:id="@+id/ivBossesPopupLoc2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/ivBossesPopupLoc1"
+                app:layout_constraintTop_toBottomOf="@+id/textView21"
+                tools:srcCompat="@drawable/boss_vulcan_loc_2" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="TIROS APROXIMADOS"
+                android:textColor="@color/primaryRed"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/ivBossesPopupBoss"
+                app:layout_constraintStart_toStartOf="@+id/ivBossesPopupBoss"
+                app:layout_constraintTop_toBottomOf="@+id/ivBossesPopupLoc1" />
+
+            <TextView
+                android:id="@+id/bossesPopupRespawn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/bossesPopupLife"
+                app:layout_constraintTop_toBottomOf="@+id/bossesPopupLife"
+                tools:text="Tempo de Respawn: 2-3 horas" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bossesPopupDismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:alpha="0.8"
+        android:clickable="true"
+        android:contentDescription="close dialog float action button"
+        android:focusable="true"
+        app:backgroundTint="#E50914"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:shapeAppearanceOverlay="@style/CircularFloatingActionButton"
+        app:srcCompat="@drawable/ic_close_24"
+        app:tint="@color/white" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.ui.navigation.helpwiki.HelpWikiActivity">
+    tools:context=".navigation.helpwiki.HelpWikiActivity">
 
     <TextView
         android:id="@+id/textHelpWikiTitle"
@@ -15,6 +15,7 @@
         android:textColor="#FFFFFF"
         android:textSize="40sp"
         android:textStyle="bold"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -123,7 +124,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fcvHelpWikiTutorials"
-        android:name="com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.fragment.TutorialsFragment"
+        android:name="com.wcsm.infectionzapp.navigation.helpwiki.fragment.TutorialsFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"

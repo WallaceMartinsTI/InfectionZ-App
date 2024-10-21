@@ -1,13 +1,12 @@
 package com.wcsm.infectionzapp.navigation.helpwiki.adapter
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.wcsm.infectionzapp.databinding.TutorialsFragmentItemBinding
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.model.TutorialItem
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.data.helpWikiTutorialsItems
+import com.wcsm.infectionzapp.navigation.helpwiki.model.TutorialItem
+import com.wcsm.infectionzapp.navigation.helpwiki.data.helpWikiTutorialsItems
 
 class TutorialsFragmentItemsAdapter(
     private val onClick: (url: String) -> Unit
@@ -42,7 +41,6 @@ class TutorialsFragmentItemsAdapter(
     }
 
     override fun getItemCount(): Int {
-        Log.i("#-# TESTE #-#", "getItemCount: ${tutorialItems.size}")
         return tutorialItems.size
     }
 

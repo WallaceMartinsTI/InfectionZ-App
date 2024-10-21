@@ -1,7 +1,7 @@
 package com.wcsm.infectionzapp.navigation.helpwiki.data
 
 import com.wcsm.infectionzapp.R
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.model.OtherItemItem
+import com.wcsm.infectionzapp.navigation.helpwiki.model.OtherItemItem
 
 val helpWikiOtherItemsItems = listOf(
     OtherItemItem(

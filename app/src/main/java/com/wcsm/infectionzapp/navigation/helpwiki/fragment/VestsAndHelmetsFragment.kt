@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.wcsm.infectionzapp.R
 import com.wcsm.infectionzapp.databinding.FragmentVestsAndHelmetsBinding
 import com.wcsm.infectionzapp.navigation.helpwiki.adapter.VestsAndHelmetsItemsAdapter
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.utils.CustomDividerItemDecoration
+import com.wcsm.infectionzapp.navigation.helpwiki.utils.CustomDividerItemDecoration
 
 class VestsAndHelmetsFragment : Fragment() {
 
@@ -23,8 +23,7 @@ class VestsAndHelmetsFragment : Fragment() {
     ): View {
         _binding = FragmentVestsAndHelmetsBinding.inflate(inflater, container, false)
 
-        binding.rvHelpWikiVestsAndHelmets.adapter =
-            _root_ide_package_.com.wcsm.infectionzapp.navigation.helpwiki.adapter.VestsAndHelmetsItemsAdapter()
+        binding.rvHelpWikiVestsAndHelmets.adapter = VestsAndHelmetsItemsAdapter()
         binding.rvHelpWikiVestsAndHelmets.layoutManager = LinearLayoutManager(context)
 
         val dividerHeight = 4

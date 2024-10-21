@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import com.wcsm.infectionzapp.databinding.FragmentVehiclesBinding
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.adapter.VehiclesFragmentItemsAdapter
+import com.wcsm.infectionzapp.navigation.helpwiki.adapter.VehiclesFragmentItemsAdapter
 
 class VehiclesFragment : Fragment() {
 

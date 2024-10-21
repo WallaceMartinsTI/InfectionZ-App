@@ -5,13 +5,12 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.wcsm.infectionzapp.databinding.MedicinesFragmentItemBinding
-import com.wcsm.infectionzapp.presentation.ui.navigation.helpwiki.model.MedicineItem
 import com.wcsm.infectionzapp.navigation.helpwiki.data.helpWikiMedicinesItems
+import com.wcsm.infectionzapp.navigation.helpwiki.model.MedicineItem
 
 class MedicinesItemsAdapter : Adapter<MedicinesItemsAdapter.MedicinesFragmentItemsHolder>() {
 
-    private val medicineItems =
-        com.wcsm.infectionzapp.navigation.helpwiki.data.helpWikiMedicinesItems
+    private val medicineItems = helpWikiMedicinesItems
 
     inner class MedicinesFragmentItemsHolder(
         private val binding: MedicinesFragmentItemBinding
