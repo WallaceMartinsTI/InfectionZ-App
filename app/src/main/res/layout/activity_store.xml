@@ -5,6 +5,137 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.ui.navigation.StoreActivity">
+    tools:context=".navigation.store.StoreActivity">
 
+    <TextView
+        android:id="@+id/textStoreTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="INFECTION Z"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:scrollbars="none"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textStoreTitle">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnStoreRambos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="RAMBOS"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnStoreFuzis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="FUZIS"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnStoreHitkills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="HITKILLS"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnStoreOthers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="OUTROS"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnStoreVests"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="COLETES"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnStoreHelmets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="CAPACETES"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnStoreBackpacks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="MOCHILAS"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnStoreMedicines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="MEDICAMENTOS"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/btnStoreFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="COMIDAS"
+                app:cornerRadius="5dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fcvStore"
+        android:name="com.wcsm.infectionzapp.navigation.store.fragment.StoreRambosFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout="@layout/fragment_store_rambos"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

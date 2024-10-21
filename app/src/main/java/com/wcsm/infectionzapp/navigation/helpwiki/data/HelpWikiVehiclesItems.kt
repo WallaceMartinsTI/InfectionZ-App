@@ -1,510 +1,510 @@
 package com.wcsm.infectionzapp.navigation.helpwiki.data
 
 import com.wcsm.infectionzapp.R
-import com.wcsm.infectionzapp.navigation.helpwiki.model.VehicleItem
+import com.wcsm.infectionzapp.navigation.helpwiki.model.HelpWikiVehicleItem
 
 val helpWikiVehiclesItems = listOf(
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Infernus",
         imageResource = R.drawable.infernus
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Admiral",
         imageResource = R.drawable.admiral
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Alpha",
         imageResource = R.drawable.alpha
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Ambulancia",
         imageResource = R.drawable.ambulancia
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Bandito",
         imageResource = R.drawable.bandito
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Banshee",
         imageResource = R.drawable.banshee
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Barracks",
         imageResource = R.drawable.barracks
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Benson",
         imageResource = R.drawable.benson
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "BF-400",
         imageResource = R.drawable.bf_400
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "BF-Injection",
         imageResource = R.drawable.bf_injection
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Blade",
         imageResource = R.drawable.blade
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Blista Compact",
         imageResource = R.drawable.blista_compact
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Bloodring Banger",
         imageResource = R.drawable.bloodring_banger
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Bobcat",
         imageResource = R.drawable.bobcat
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Bravura",
         imageResource = R.drawable.bravura
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Broadway",
         imageResource = R.drawable.broadway
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Buccaneer",
         imageResource = R.drawable.buccaneer
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Buffalo",
         imageResource = R.drawable.buffalo
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Bullet",
         imageResource = R.drawable.bullet
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Burrito",
         imageResource = R.drawable.burrito
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Cabbie",
         imageResource = R.drawable.cabbie
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Cadrona",
         imageResource = R.drawable.cadrona
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Camper",
         imageResource = R.drawable.camper
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Cheetah",
         imageResource = R.drawable.cheetah
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Clover",
         imageResource = R.drawable.clover
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Club",
         imageResource = R.drawable.club
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Coach",
         imageResource = R.drawable.coach
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Comet",
         imageResource = R.drawable.comet
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Elegant",
         imageResource = R.drawable.elegant
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Elegy",
         imageResource = R.drawable.elegy
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Emperor",
         imageResource = R.drawable.emperor
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Enforcer",
         imageResource = R.drawable.enforcer
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Esperanto",
         imageResource = R.drawable.esperanto
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Euros",
         imageResource = R.drawable.euros
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "FBI Rancher",
         imageResource = R.drawable.fbi_rancher
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "FBI Truck",
         imageResource = R.drawable.fbi_truck
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "FCR-900",
         imageResource = R.drawable.fcr_900
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Feltzer",
         imageResource = R.drawable.feltzer
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Fire Truck Ladder",
         imageResource = R.drawable.fire_truck_ladder
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Flash",
         imageResource = R.drawable.flash
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Fortune",
         imageResource = R.drawable.fortune
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Freeway",
         imageResource = R.drawable.freeway
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Glendale",
         imageResource = R.drawable.glendale
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Glendale Damaged",
         imageResource = R.drawable.glendale_damaged
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Greenwood",
         imageResource = R.drawable.greenwood
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Hermes",
         imageResource = R.drawable.hermes
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Hotdog",
         imageResource = R.drawable.hotdog
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Hotknife",
         imageResource = R.drawable.hotknife
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Hotring Racer 1",
         imageResource = R.drawable.hotring_racer_1
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Hotring Racer 2",
         imageResource = R.drawable.hotring_racer_2
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Hotring Racer 3",
         imageResource = R.drawable.hotring_racer_3
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "HPV-1000",
         imageResource = R.drawable.hpv_1000
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Huntley",
         imageResource = R.drawable.huntley
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Hustler",
         imageResource = R.drawable.hustler
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Intruder",
         imageResource = R.drawable.intruder
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Jester",
         imageResource = R.drawable.jester
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Journey",
         imageResource = R.drawable.journey
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Landstalker",
         imageResource = R.drawable.landstalker
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Linerunner",
         imageResource = R.drawable.linerunner
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Majestic",
         imageResource = R.drawable.majestic
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Manana",
         imageResource = R.drawable.manana
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Merit",
         imageResource = R.drawable.merit
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Mesa",
         imageResource = R.drawable.mesa
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Moonbeam",
         imageResource = R.drawable.moonbeam
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Mr Whoopee",
         imageResource = R.drawable.mr_whoopee
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Mule",
         imageResource = R.drawable.mule
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Nebula",
         imageResource = R.drawable.nebula
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "News Chopper",
         imageResource = R.drawable.news_chopper
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "NRG-500",
         imageResource = R.drawable.nrg_500
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Oceanic",
         imageResource = R.drawable.oceanic
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Patriot",
         imageResource = R.drawable.patriot
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "PCJ-600",
         imageResource = R.drawable.pcj_600
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Perennial",
         imageResource = R.drawable.perennial
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Phoenix",
         imageResource = R.drawable.phoenix
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Picador",
         imageResource = R.drawable.picador
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Police LS",
         imageResource = R.drawable.police_ls
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Police LV",
         imageResource = R.drawable.police_lv
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Police Maverick",
         imageResource = R.drawable.police_maverick
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Police Ranger",
         imageResource = R.drawable.police_ranger
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Police SF",
         imageResource = R.drawable.police_sf
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Premier",
         imageResource = R.drawable.premier
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Previon",
         imageResource = R.drawable.previon
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Primo",
         imageResource = R.drawable.primo
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Rancher",
         imageResource = R.drawable.rancher
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Rancher Lure",
         imageResource = R.drawable.rancher_lure
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Regina",
         imageResource = R.drawable.regina
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Remington",
         imageResource = R.drawable.remington
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Roadtrain",
         imageResource = R.drawable.roadtrain
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Romero",
         imageResource = R.drawable.romero
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Sabre",
         imageResource = R.drawable.sabre
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Sadler",
         imageResource = R.drawable.sadler
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Sadler Damaged",
         imageResource = R.drawable.sadler_damaged
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Sanchez",
         imageResource = R.drawable.sanchez
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Sandking",
         imageResource = R.drawable.sandking
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Savanna",
         imageResource = R.drawable.savanna
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Sentinel",
         imageResource = R.drawable.sentinel
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Slamvan",
         imageResource = R.drawable.slamvan
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Solair",
         imageResource = R.drawable.solair
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Stafford",
         imageResource = R.drawable.stafford
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Stallion",
         imageResource = R.drawable.stallion
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Stratum",
         imageResource = R.drawable.stratum
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Stretch",
         imageResource = R.drawable.stretch
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Sultan",
         imageResource = R.drawable.sultan
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Sunrise",
         imageResource = R.drawable.sunrise
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Super GT",
         imageResource = R.drawable.super_gt
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Swat",
         imageResource = R.drawable.swat
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Tahoma",
         imageResource = R.drawable.tahoma
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Tampa",
         imageResource = R.drawable.tampa
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Tanker",
         imageResource = R.drawable.tanker
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Taxi",
         imageResource = R.drawable.taxi
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Tornado",
         imageResource = R.drawable.tornado
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Trashmaster",
         imageResource = R.drawable.trashmaster
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Turismo",
         imageResource = R.drawable.turismo
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Uranus",
         imageResource = R.drawable.uranus
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Utility Van",
         imageResource = R.drawable.utility_van
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Vincent",
         imageResource = R.drawable.vincent
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Virgo",
         imageResource = R.drawable.virgo
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Voodoo",
         imageResource = R.drawable.voodoo
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Walton",
         imageResource = R.drawable.walton
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Washington",
         imageResource = R.drawable.washington
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Wayfarer",
         imageResource = R.drawable.wayfarer
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Williard",
         imageResource = R.drawable.williard
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Windsor",
         imageResource = R.drawable.windsor
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Yankee",
         imageResource = R.drawable.yankee
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "Yosemite",
         imageResource = R.drawable.yosemite
     ),
-    VehicleItem(
+    HelpWikiVehicleItem(
         vehicle = "ZR-350",
         imageResource = R.drawable.zr_350
     )

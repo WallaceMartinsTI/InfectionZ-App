@@ -124,7 +124,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fcvHelpWikiTutorials"
-        android:name="com.wcsm.infectionzapp.navigation.helpwiki.fragment.TutorialsFragment"
+        android:name="com.wcsm.infectionzapp.navigation.helpwiki.fragment.HelpWikiTutorialsFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
@@ -136,5 +136,5 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
-        tools:layout="@layout/fragment_tutorials" />
+        tools:layout="@layout/fragment_helpwiki_tutorials" />
 </androidx.constraintlayout.widget.ConstraintLayout>

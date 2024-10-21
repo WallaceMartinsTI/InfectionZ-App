@@ -12,14 +12,15 @@ import androidx.fragment.app.commit
 import androidx.fragment.app.replace
 import com.wcsm.infectionzapp.R
 import com.wcsm.infectionzapp.databinding.ActivityHelpWikiBinding
-import com.wcsm.infectionzapp.navigation.helpwiki.fragment.KeysFragment
-import com.wcsm.infectionzapp.navigation.helpwiki.fragment.LevelsFragment
-import com.wcsm.infectionzapp.navigation.helpwiki.fragment.OtherItemsFragment
-import com.wcsm.infectionzapp.navigation.helpwiki.fragment.RareGearsFragment
-import com.wcsm.infectionzapp.navigation.helpwiki.fragment.TutorialsFragment
-import com.wcsm.infectionzapp.navigation.helpwiki.fragment.VehiclePartsFragment
-import com.wcsm.infectionzapp.navigation.helpwiki.fragment.VehiclesFragment
-import com.wcsm.infectionzapp.navigation.helpwiki.fragment.VestsAndHelmetsFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.HelpWikiKeysFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.HelpWikiLevelsFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.HelpWikiMedicinesFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.HelpWikiOtherItemsFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.HelpWikiRareGearsFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.HelpWikiTutorialsFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.HelpWikiVehiclePartsFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.HelpWikiVehiclesFragment
+import com.wcsm.infectionzapp.navigation.helpwiki.fragment.HelpWikiVestsAndHelmetsFragment
 
 class HelpWikiActivity : AppCompatActivity() {
 
@@ -75,7 +76,7 @@ class HelpWikiActivity : AppCompatActivity() {
     private fun formatHelpWikiTitle() {
         val fullText = "INFECTION Z\nAJUDA/WIKI"
         val spannable = SpannableString(fullText)
-        val redColor =  resources.getColor(R.color.primaryRed)
+        val redColor = resources.getColor(R.color.primaryRed)
 
         spannable.setSpan(
             ForegroundColorSpan(redColor),
@@ -96,55 +97,55 @@ class HelpWikiActivity : AppCompatActivity() {
 
     private fun initTutorialsFragment() {
         supportFragmentManager.commit {
-            replace<TutorialsFragment>(R.id.fcvHelpWikiTutorials)
+            replace<HelpWikiTutorialsFragment>(binding.fcvHelpWikiTutorials.id)
         }
     }
 
     private fun initVehiclePartsFragment() {
         supportFragmentManager.commit {
-            replace<VehiclePartsFragment>(R.id.fcvHelpWikiTutorials)
+            replace<HelpWikiVehiclePartsFragment>(binding.fcvHelpWikiTutorials.id)
         }
     }
 
     private fun initMedicinesFragment() {
         supportFragmentManager.commit {
-            replace<com.wcsm.infectionzapp.navigation.helpwiki.fragment.MedicinesFragment>(R.id.fcvHelpWikiTutorials)
+            replace<HelpWikiMedicinesFragment>(binding.fcvHelpWikiTutorials.id)
         }
     }
 
     private fun initVestsAndHelmetsFragment() {
         supportFragmentManager.commit {
-            replace<VestsAndHelmetsFragment>(R.id.fcvHelpWikiTutorials)
+            replace<HelpWikiVestsAndHelmetsFragment>(binding.fcvHelpWikiTutorials.id)
         }
     }
 
     private fun initLevelsFragment() {
         supportFragmentManager.commit {
-            replace<LevelsFragment>(R.id.fcvHelpWikiTutorials)
+            replace<HelpWikiLevelsFragment>(binding.fcvHelpWikiTutorials.id)
         }
     }
 
     private fun initOtherItemsFragment() {
         supportFragmentManager.commit {
-            replace<OtherItemsFragment>(R.id.fcvHelpWikiTutorials)
+            replace<HelpWikiOtherItemsFragment>(binding.fcvHelpWikiTutorials.id)
         }
     }
 
     private fun initRareGearsFragment() {
         supportFragmentManager.commit {
-            replace<RareGearsFragment>(R.id.fcvHelpWikiTutorials)
+            replace<HelpWikiRareGearsFragment>(binding.fcvHelpWikiTutorials.id)
         }
     }
 
     private fun initKeysFragment() {
         supportFragmentManager.commit {
-            replace<KeysFragment>(R.id.fcvHelpWikiTutorials)
+            replace<HelpWikiKeysFragment>(binding.fcvHelpWikiTutorials.id)
         }
     }
 
     private fun initVehiclesFragment() {
         supportFragmentManager.commit {
-            replace<VehiclesFragment>(R.id.fcvHelpWikiTutorials)
+            replace<HelpWikiVehiclesFragment>(binding.fcvHelpWikiTutorials.id)
         }
     }
 }
